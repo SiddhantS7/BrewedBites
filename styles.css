@@ -1,0 +1,92 @@
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 50px;
+    color: #4b2e83;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    font-size: 35px;
+    color: #3e2a47;
+    text-transform: uppercase;
+  }
+  
+  .established {
+    font-style: italic;
+    font-size: 18px;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+  }
+  
+  .menu {
+    width: 80%;
+    background-color: #f0e6d6;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+  }
+  
+  hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+  }
+  
+  .bottom-line {
+    margin-top: 25px;
+  }
+  
+  h1, h2 {
+    font-family: 'Impact', serif;
+  }
+  
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .flavor, .dessert {
+    text-align: left;
+    width: 75%;
+  }
+  
+  .price {
+    text-align: right;
+    width: 25%;
+    font-weight: bold;
+    color: #6a4f40;
+  }
+  
+  footer {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  footer a {
+    color: #4b2e83;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Added hover effect on items for interactivity */
+  .item:hover {
+    background-color: #f5f1d7;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
